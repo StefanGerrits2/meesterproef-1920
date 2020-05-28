@@ -1,17 +1,8 @@
-@font-face {
-    font-family: publicSans;
-    src: url('./fonts/publicSans/PublicSans-Light.ttf');
-}
-
-@font-face {
-    font-family: publicSans-bold;
-    src: url('./fonts/publicSans/PublicSans-Bold.ttf');
-}
-
-@font-face {
-    font-family: bitter;
-    src: url('./fonts/Bitter/Bitter-Regular.ttf');
-}
+@import './components/transitions',
+        './components/fonts',
+        './components/colors',
+        './components/header',
+        './components/chooseRoom';
 
 * {
     box-sizing: border-box;
@@ -20,8 +11,11 @@
 }
 
 body {
+    margin: 0;
+    width: 100%;
     height: 100%;
-    font-size: 16px;
+    overflow-x: hidden;
+    font-size: 13px;
 }
 
 h1 {
@@ -46,10 +40,6 @@ h4 {
 
 p, span {
     font-family: 'publicSans', sans-serif;
-}
-
-p {
-    line-height: 175%;
 }
 
 header ul {
@@ -121,13 +111,13 @@ header {
     background-color: #34b6dd;
     color: white;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .goal-type2 {
     padding: .5em;
     color: #17686d;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .goal-buttons__container {
@@ -210,8 +200,7 @@ button:hover {
 
 .message span:nth-child(3) {
     color: #888888;
-    margin-top: .5em;
-    font-size: 13px;
+    margin-top: .25em;
 }
 
 .image__container {
@@ -321,4 +310,9 @@ option {
     .goal__container img {
         display: flex;
     }
+}
+
+// Mediaqueries
+@media screen and (max-width: 600) {
+    //
 }
