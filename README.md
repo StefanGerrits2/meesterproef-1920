@@ -13,11 +13,12 @@ During the Meesterproef, we created a prototype for Lyvup. We designed and progr
 
 ### Team
 
-This is a collaboration project I made with:
+This is a collaboration project I made with
 * [Michel Abdad](https://github.com/mich97)
 * [Max Weijers](https://github.com/mordock)
 * [Reinier van Limpt](https://github.com/ReiniervanLimpt)
 * [Monika Streljajeva](https://github.com/MonikaaS) 
+
 @minor Web Development at the Amsterdam University of Applied Sciences.
 
 ### Teacher/Coach
